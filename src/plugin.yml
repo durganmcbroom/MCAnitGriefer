@@ -1,0 +1,17 @@
+main: mcantigrief.java.MCAntiGrief
+name: MCAntiGriefer
+version: 1.0
+author: chestly
+description: a plugin allowing server owners to vet their players before joining
+commands:
+  addplayer:
+    description: allows players to be added to the database
+    usage:
+    permission: myplugin.mycommand
+    permission-message: You dont Have sufficient permissions to ust this command
+  delplayer:
+    description: allows players to be deleted from the database
+    usage:
+    permission: myplugin.mycommand
+    permission-message: You dont Have sufficient permissions to ust this command
+
